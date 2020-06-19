@@ -1,0 +1,23 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav ul {
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+
+}
+
+nav ul li{
+    padding: 5px;
+    margin-right: 15px;
+    flex-direction: row;
+}
+a {
+    text-decoration: none;
+}
+.center {
+    display: flex;
+    justify-content: center;
+}
