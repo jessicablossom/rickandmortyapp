@@ -17,12 +17,14 @@ const Personaje = () => {
   }, []);
 
   return (
-    <div>
-      <h3>Nombre: {char.name}</h3>
+    <div className="card">
+      <h2>{char.name}</h2>
       <img src={char.image} />
-    <p>Status: {char.status}</p>
-    <p>Especie: {char.species}</p>
-    <p>Genero: {char.gender}</p>
+      <div >
+        <p>Status: {char.status}</p>
+        <p>Especie: {char.species}</p>
+        <p>Genero: {char.gender}</p>
+      </div>
     </div>
   );
 };

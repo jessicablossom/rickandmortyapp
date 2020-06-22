@@ -2,7 +2,7 @@ import React from "react";
 import Logo from "../src/components/Logo"
 
 const Home = () => (
-    <div className="center">
+    <div className="align-center">
     <Logo/>
     </div>
 );

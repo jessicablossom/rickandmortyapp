@@ -1,6 +1,6 @@
 import React from 'react'
 
 const Logo = () => (
-    <img src="https://i.pinimg.com/originals/e4/26/dd/e426dd8ce20bf848bf974672813a39ac.png"/>
+    <img className ="logo" src="https://www.freepnglogos.com/uploads/rick-and-morty-png/rick-and-morty-portal-shoes-white-clothing-zavvi-23.png"/>
 );
 export default Logo

@@ -12,12 +12,13 @@ const Grilla = () => {
   }, []);
 
   return (
-    <div>
-      <h1>Personajes</h1>
+    <div className="lista">
       {characters.map((char) => {
         return (
           <Link key={char.id} to={`/char/${char.id}`}>
-            <p>{char.name}</p>
+            <div className="personaje">
+            <p>• {char.name}</p>
+            </div>
           </Link>
         );
       })}

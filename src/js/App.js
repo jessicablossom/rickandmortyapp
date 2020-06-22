@@ -1,6 +1,6 @@
 import React from "react";
 import Home from "../../pages/Home";
-import About from "../../pages/About";
+import Personajes from "../../pages/Personajes";
 import Char from "../../pages/Char"
 import {
   BrowserRouter as Router,
@@ -13,21 +13,20 @@ import {
 const App = () => {
   return (
     <Router>
-      <div>
+      <div className="background">
         <nav>
           <ul>
             <li>
               <Link to="/">Home </Link>
             </li>
             <li>
-              <Link to="/about">About</Link>
+              <Link to="/personajes">Personajes</Link>
             </li>
           </ul>
         </nav>
-
         <Switch>
-          <Route path="/about">
-            <About />
+          <Route path="/personajes">
+            <Personajes />
           </Route>
           <Route path="/char/:id">
             <Char/>
@@ -37,7 +36,8 @@ const App = () => {
           </Route>
        </Switch>
       </div>
-    </Router>
+      <footer className="align-center">Made with ♥️ </footer>
+    </Router>  
     )
 }
 

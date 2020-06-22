@@ -2,11 +2,12 @@ import React from "react";
 import Buscador from "../src/components/Buscador";
 import Grilla from "../src/components/Grilla";
 
-const About = () => (
-  <div className="container">
+const Personajes = () => (
+  <div>
+    <h1>Personajes</h1>
     <Buscador></Buscador>
     <Grilla></Grilla>
   </div>
 );
 
-export default About;
+export default Personajes;
