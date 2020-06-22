@@ -36,7 +36,7 @@ const App = () => {
           </Route>
        </Switch>
       </div>
-      <footer className="align-center">Made with ♥️ </footer>
+      <footer className="align-center">This is footer 🖤 </footer>
     </Router>  
     )
 }

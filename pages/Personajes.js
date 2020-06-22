@@ -3,7 +3,7 @@ import Buscador from "../src/components/Buscador";
 import Grilla from "../src/components/Grilla";
 
 const Personajes = () => (
-  <div>
+  <div className="align-center">
     <h1>Personajes</h1>
     <Buscador></Buscador>
     <Grilla></Grilla>
