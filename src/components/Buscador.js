@@ -1,5 +1,5 @@
 import React from "react";
 
-const Buscador = () => <input className="buscador" name="buscar"></input>;
+const Buscador = () => <input name="buscar"></input>;
 
 export default Buscador;

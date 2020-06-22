@@ -21,7 +21,7 @@ input {
   border: 1px solid lightgray;
   color: #2c3e50;
   font-size: 16px;
-  height: 22px;
+  height: 24px;
   margin-bottom: 25px;
   padding: 2px;
   width: 45%;
@@ -62,7 +62,7 @@ nav ul li {
 
 .card {
   align-items: center;
-  background-color: whitesmoke;
+  background-color: white;
   box-shadow: 10px 10px 13px 0px rgba(168, 163, 168, 0.65);
   display: flex;
   flex-direction: column;
@@ -85,7 +85,7 @@ nav ul li {
 }
 .lista {
   display: flex;
-  background-color: whitesmoke;
+  background-color: white;
   box-shadow: 10px 10px 13px 0px rgba(168, 163, 168, 0.65);
   flex-direction: row;
   flex-wrap: wrap;
